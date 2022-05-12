@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import CakeView from './features/cake/CakeView'
-import IcecreamView from './features/icecream/IecreamView'
+import IcecreamView from './features/icecream/IcecreamView'
 import UserView from './features/user/userView'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
     <CakeView/>
-    <IcecreamView/>
+   <IcecreamView/>
     <UserView/>
     </div>
   )
