@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import CakeView from './features/cake/CakeView'
-import IcecreamView from './features/icecream/IcecreamView'
-import UserView from './features/user/userView'
+import "./App.css";
+import CakeView from "./features/cake/CakeView";
+import IcecreamView from "./features/icecream/IcecreamView";
+import UserView from "./features/user/userView";
 
 function App() {
-
   return (
     <div className="App">
-    <CakeView/>
-   <IcecreamView/>
-    <UserView/>
+      <CakeView />
+      <IcecreamView />
+      <UserView />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
